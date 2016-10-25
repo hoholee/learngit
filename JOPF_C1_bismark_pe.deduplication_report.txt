@@ -1,0 +1,7 @@
+
+Total number of alignments analysed in /sb/project/afb-431/BIF/RIC/RIC-BIF-P1/results/bismark/JOPF_C1/JOPF_C1_bismark_pe.sam:	24227101
+Total number duplicated alignments removed:	5933480 (24.49%)
+Duplicated alignments were found at:	4706709 different position(s)
+
+Total count of deduplicated leftover sequences: 18293621 (75.51% of total)
+

@@ -1,0 +1,36 @@
+Bismark report for: /sb/project/afb-431/BIF/RIC/RIC-BIF-P1/data/FASTQ_files/trimmed/HI.1446.004.SSXT2.JOPF-C1_R1.fastq_and_HI.1446.005.SSXT2.JOPF-C1_R1.fastq_and_HI.1446.006.SSXT2.JOPF-C1_R1.fastq.gz and /sb/project/afb-431/BIF/RIC/RIC-BIF-P1/data/FASTQ_files/trimmed/HI.1446.004.SSXT2.JOPF-C1_R2.fastq_and_HI.1446.005.SSXT2.JOPF-C1_R2.fastq_and_HI.1446.006.SSXT2.JOPF-C1_R2.fastq.gz (version: v0.12.2)
+Bismark was run with Bowtie against the bisulfite genome of /sb/project/afb-431/genomes/Mus_musculus/UCSC/mm9/Sequence/WholeGenomeFasta/ with the specified options: -q -n 2 -l 30 -k 2 --best --maxins 500 --chunkmbs 512
+Option '--non_directional' specified: alignments to all strands were being performed (OT, OB, CTOT, CTOB)
+
+Final Alignment report
+======================
+Sequence pairs analysed in total:	29414733
+Number of paired-end alignments with a unique best hit:	24227101
+Mapping efficiency:	82.4% 
+Sequence pairs with no alignments under any condition:	1938279
+Sequence pairs did not map uniquely:	3249353
+Sequence pairs which were discarded because genomic sequence could not be extracted:	0
+
+Number of sequence pairs with unique best (first) alignment came from the bowtie output:
+CT/GA/CT:	2021845	((converted) top strand)
+GA/CT/CT:	1283	(complementary to (converted) top strand)
+GA/CT/GA:	3729	(complementary to (converted) bottom strand)
+CT/GA/GA:	22200244	((converted) bottom strand)
+
+Final Cytosine Methylation Report
+=================================
+Total number of C's analysed:	531695058
+
+Total methylated C's in CpG context:	16162844
+Total methylated C's in CHG context:	1274336
+Total methylated C's in CHH context:	4625189
+
+Total unmethylated C's in CpG context:	21397621
+Total unmethylated C's in CHG context:	125564210
+Total unmethylated C's in CHH context:	362670858
+
+C methylated in CpG context:	43.0%
+C methylated in CHG context:	1.0%
+C methylated in CHH context:	1.3%
+
+
